@@ -1,0 +1,2 @@
+import os
+os.system("CUDA_VISIBLE_DEVICES=1 python -m torch.distributed.launch --nproc_per_node=1 eval_diffusion.py --config raindrop_wavelet.yml --world_size=1 --resume /data1/weather/ckpts/RainDrop_epoch33420_ddpm.pth.tar")

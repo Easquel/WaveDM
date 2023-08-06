@@ -1,0 +1,63 @@
+data:
+    dataset: "RainDrop"
+    image_size: 64
+    patch_size: 256
+    lap: False
+    global_attn: False
+    wavelet: True
+    wavelet_in_unet: False
+    use_window: False
+    window_size: 2
+    begin_from_noise: True
+    num_workers: 32
+    data_dir: "/data1/weather/"
+    conditional: True
+
+model:
+    pred_channels: 3
+    use_other_channels: True
+    other_channels_begin: 3
+    use_gt_in_train: True
+    in_channels: 48
+    out_ch: 3
+    # pred_channels: 3
+    # use_other_channels: False
+    # other_channels_begin: 0
+    # use_gt_in_train: True
+    # in_channels: 48
+    # out_ch: 3
+    ch: 128
+#    ch_mult: [ 1, 1, 2, 2, 4, 4 ]
+    ch_mult: [ 1, 2, 4, 6]
+    num_res_blocks: 2
+    attn_resolutions: [16,]
+    dropout: 0.0
+    ema_rate: 0.999
+    ema: True
+    resamp_with_conv: True
+
+diffusion:
+    beta_schedule: linear
+    beta_start: 0.0001
+    beta_end: 0.02
+    num_diffusion_timesteps: 1000
+
+training:
+    use_mse: False
+    patch_n: 8
+    batch_size: 1
+    n_epochs: 38000
+    n_iters: 2000000
+    snapshot_freq: 3000
+    validation_freq: 3000
+
+sampling:
+    batch_size: 1
+    last_only: True
+
+optim:
+    weight_decay: 0.000
+    optimizer: "Adam"
+    lr: 0.00004
+    amsgrad: False
+    eps: 0.00000001
