@@ -2,5 +2,10 @@
 
 ### Implementation code for [WaveDM: Wavelet-Based Diffusion Models for Image Restoration](https://arxiv.org/abs/2305.13819)
 
+
+
+# Acknowledgment
+This code is based on [PatchDM](https://github.com/IGITUGraz/WeatherDiffusion)
+
 #### Coming soon...
 
