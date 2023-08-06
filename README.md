@@ -6,13 +6,13 @@
 ## Training 
 
 
-···python train_weather_script.py···
+```python train_weather_script.py```
 
 ## Testing 
 
-'''
+```
 python test_weather_script.py
-'''
+```
 
 
 
