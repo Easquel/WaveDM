@@ -6,7 +6,9 @@
 ## Training 
 
 
-```python train_weather_script.py```
+```
+python train_weather_script.py
+```
 
 ## Testing 
 
