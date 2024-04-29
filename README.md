@@ -26,7 +26,7 @@ python test_weather_script.py
 ```
 
 ## Acknowledgment
-This code is heavily based on [PatchDM](https://github.com/IGITUGraz/WeatherDiffusion). Many thanks for the authors!
+This code is heavily based on [PatchDM](https://github.com/IGITUGraz/WeatherDiffusion). Many thanks to the authors!
 
 
 ## Citation
