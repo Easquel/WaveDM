@@ -1,6 +1,6 @@
-# WaveDM: Wavelet-Based Diffusion Models for Image Restoration (IEEE TMM 2024)
+# WaveDM: Wavelet-Based Diffusion Models for Image Restoration
 
-#### This is the offifical implementation code for [WaveDM: Wavelet-Based Diffusion Models for Image Restoration](https://arxiv.org/abs/2305.13819).
+#### This is the offifical implementation code for [WaveDM: Wavelet-Based Diffusion Models for Image Restoration]([https://arxiv.org/abs/2305.13819](https://ieeexplore.ieee.org/abstract/document/10420512)).
 
 ## Notes
 
