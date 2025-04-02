@@ -34,8 +34,10 @@ If you find this repository/work helpful in your research, welcome to cite the p
 ```
 @article{huang2024wavedm,
   title={Wavedm: Wavelet-based diffusion models for image restoration},
-  author={Huang, Yi and Huang, Jiancheng and Liu, Jianzhuang and Yan, Mingfu and Dong, Yu and Lyu, Jiaxi and Chen, Chaoqi and Chen, Shifeng},
+  author={Huang, Yi and Huang, Jiancheng and Liu, Jianzhuang and Yan, Mingfu and Dong, Yu and Lv, Jiaxi and Chen, Chaoqi and Chen, Shifeng},
   journal={IEEE Transactions on Multimedia},
+  volume={26},
+  pages={7058--7073},
   year={2024},
   publisher={IEEE}
 }
